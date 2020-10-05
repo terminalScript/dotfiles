@@ -1,2 +1,2 @@
 # dotfiles
-My minimal, basic dot files
+My minimal, basic dotfiles
