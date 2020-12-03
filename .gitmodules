@@ -1,0 +1,3 @@
+[submodule "bashCatWithKitten"]
+	path = bashCatWithKitten
+	url = https://github.com/GuidoFe/bashCatWithKitten.git
