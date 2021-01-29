@@ -100,10 +100,12 @@ source $ZSH/oh-my-zsh.sh
 #
 # ALIASES
 alias cdcs="cd ~/Documents/5\ School/Spring\ Semester\ 2021/CS\ 1332/cs1332/"
-alias checkstyle="java -jar ~/Documents/5\ School/2020-2021/CS\ 1331/cs-1331/checkstyle.jar"
+alias checkstyle="java -jar ~/Documents/5\ School/Spring\ Semester\ 2021/CS\ 1332/cs1332/checkstyle.jar -c ~/Documents/5\ School/Spring\ Semester\ 2021/CS\ 1332/cs1332/CS1332-checkstyle.xml"
 alias tmux="tmux attach"
 
 export LOCAL_IP=`ipconfig getifaddr en0`
+export CLASSPATH=.:~/dotfiles/junit/junit.jar:~/dotfiles/junit/hamcrest.jar
 alias serve="browser-sync start -s -f . --no-notify --host $LOCAL_IP --port 8080"
 alias cat="~/dotfiles/bashCatWithKitten/cat.sh"
 alias changemenubarcolor="~/dotfiles/ChangeMenuBarColor/ChangeMenuBarColor"
+alias junit="java org.junit.runner.JUnitCore"
